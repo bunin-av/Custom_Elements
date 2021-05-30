@@ -1,0 +1,35 @@
+.buttonsWrapper {
+    display: flex;
+    color: white;
+    margin: 10px;
+    .button {
+        padding: 20px 40px;
+        border: 2px solid black;
+        background: dimgray;
+    }
+    .offButton {
+        background: crimson;
+        padding: 20px 40px;
+        border: 2px solid black;
+    }
+    .onButton {
+        background: forestgreen;
+        padding: 20px 40px;
+        border: 2px solid black;
+    }
+    .indicator_off {
+        background: crimson;
+        border-radius: 50%;
+        width: 70px;
+        margin-left: 20px;
+    }
+    .indicator_on {
+        background: forestgreen;
+        border-radius: 50%;
+        width: 70px;
+        margin-left: 20px;
+    }
+    .deactive {
+        background: dimgray;
+    }
+}
